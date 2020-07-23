@@ -1,0 +1,11 @@
+#top {
+    background-color: #4cb1ca;
+}
+#top .btn-link, #top-links li, #top-links a{
+    color: #bef2ff;
+}
+
+.modal-list{
+    list-style-type: none;
+    padding: 0;
+}
