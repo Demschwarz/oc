@@ -1,14 +1,13 @@
-<div id="cart" class="btn-group btn-block">
-    <button type="button" data-toggle="modal" data-target="#modalCart" data-loading-text="<?php echo $text_loading; ?>"
-        class="btn btn-inverse btn-block btn-lg dropdown-toggle"><i class="fa fa-shopping-cart"></i> <span
-            id="cart-total"></span></button>
+<div id="cart" class="btn-group">
+    <button type="button" data-toggle="modal" data-target="#modalCart" data-loading-text="<?php echo $text_loading; ?>">
+    <i class="fa fa-shopping-cart"></i></button>
     <div class="modal fade" id="modalCart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                             aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Корзина</h4>
+                    <h4 class="modal-title" id="myModalLabel"><?php echo $text_title?></h4>
                 </div>
                 <div class="modal-body">
                     <ul class="modal-list">
@@ -69,7 +68,7 @@
                     </ul>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $text_close?> </button>
                     <a href="<?php echo $cart; ?>" class="btn btn-primary"><strong>
                             <?php echo $text_cart; ?></strong></a>
                 </div>

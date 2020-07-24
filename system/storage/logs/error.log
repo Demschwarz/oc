@@ -1,1 +1,2 @@
 2020-07-23 12:17:03 - PHP Notice:  Use of undefined constant php - assumed 'php' in C:\Users\Ilya\Desktop\projects\oc\catalog\view\theme\our_theme\template\common\header.tpl on line 75
+2020-07-24 10:03:33 - PHP Notice:  Undefined variable: text_close in C:\Users\Ilya\Desktop\projects\oc\catalog\view\theme\our_theme\template\common\cart.tpl on line 71

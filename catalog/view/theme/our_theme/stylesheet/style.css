@@ -9,3 +9,43 @@
     list-style-type: none;
     padding: 0;
 }
+.header-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.owl-wrapper-outer {
+    border: none;
+    box-shadow: none;
+}
+
+.owl-controls .owl-buttons .owl-prev {
+    width: 67px;
+    height: 67px;
+    background-color: #ffffff;
+    color: #cdcdcd;
+    font-size: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 121px;
+}
+
+.owl-controls .owl-buttons .owl-next {
+    width: 67px;
+    height: 67px;
+    background-color: #ffffff;
+    color: #cdcdcd;
+    font-size: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 121px;
+}
+
+.owl-carousel .owl-buttons div i {
+    margin: 0;
+}

@@ -23,22 +23,22 @@
 <link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css" />
 <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
-<link href="catalog/view/theme/our_theme/stylesheet/style.css" rel="stylesheet">
 
 <?php foreach ($styles as $style) { ?>
 <link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="<?php echo $style['media']; ?>" />
 <?php } ?>
 <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
 <?php foreach ($links as $link) { ?>
-<link href="<?php echo $link['href']; ?>" rel="<?php echo $link['rel']; ?>" />
-<?php } ?>
-<?php foreach ($scripts as $script) { ?>
-<script src="<?php echo $script; ?>" type="text/javascript"></script>
-<?php } ?>
-<?php foreach ($analytics as $analytic) { ?>
-<?php echo $analytic; ?>
-<?php } ?>
-</head>
+  <link href="<?php echo $link['href']; ?>" rel="<?php echo $link['rel']; ?>" />
+  <?php } ?>
+  <?php foreach ($scripts as $script) { ?>
+    <script src="<?php echo $script; ?>" type="text/javascript"></script>
+    <?php } ?>
+    <?php foreach ($analytics as $analytic) { ?>
+      <?php echo $analytic; ?>
+      <?php } ?>
+      <link href="catalog/view/theme/our_theme/stylesheet/style.css" rel="stylesheet">
+    </head>
 <body class="<?php echo $class; ?>">
 <nav id="top">
   <div class="container">
@@ -74,7 +74,7 @@
       <div class="col-sm-6">
       <?php if ($categories) { ?>
           <ul class="nav navbar-nav">
-            <li><a href="<?php echo $home; ?>">Home</a></li>
+            <li><a href="<?php echo $home; ?>"><?php echo $text_home?></a></li>
             <?php foreach ($categories as $category) { ?>
             <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
             <?php } ?>
@@ -84,7 +84,7 @@
         <?php } ?>
         
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 header-list">
       <?php echo $search; ?>
       <a href="<?php echo $wishlist; ?>"><i class="fa fa-tags" aria-hidden="true"></i></a>
       <?php echo $cart; ?>
