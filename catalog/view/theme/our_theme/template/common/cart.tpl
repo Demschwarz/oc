@@ -76,4 +76,6 @@
         </div>
     </div>
 </div>
-<?php echo $text_items; ?>
+<span class="cart-text">
+    <?php echo $text_items; ?>
+</span>

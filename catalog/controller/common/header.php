@@ -34,6 +34,7 @@ class ControllerCommonHeader extends Controller {
 		$data['scripts'] = $this->document->getScripts();
 		$data['lang'] = $this->language->get('code');
 		$data['direction'] = $this->language->get('direction');
+		$data['direction'] = $this->language->get('direction');
 
 		$data['name'] = $this->config->get('config_name');
 
@@ -46,6 +47,8 @@ class ControllerCommonHeader extends Controller {
 		$this->load->language('common/header');
 
 		$data['text_home'] = $this->language->get('text_home');
+		$data['text_feedback'] = $this->language->get('text_feedback');
+		
 
 		// Wishlist
 		if ($this->customer->isLogged()) {
@@ -84,6 +87,8 @@ class ControllerCommonHeader extends Controller {
 		$data['checkout'] = $this->url->link('checkout/checkout', '', true);
 		$data['contact'] = $this->url->link('information/contact');
 		$data['telephone'] = $this->config->get('config_telephone');
+
+		$data['feedback'] = $this->url->link('feedback/feedback');
 
 		// Menu
 		$this->load->model('catalog/category');

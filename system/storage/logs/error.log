@@ -1,2 +1,22 @@
 2020-07-23 12:17:03 - PHP Notice:  Use of undefined constant php - assumed 'php' in C:\Users\Ilya\Desktop\projects\oc\catalog\view\theme\our_theme\template\common\header.tpl on line 75
 2020-07-24 10:03:33 - PHP Notice:  Undefined variable: text_close in C:\Users\Ilya\Desktop\projects\oc\catalog\view\theme\our_theme\template\common\cart.tpl on line 71
+2020-07-24 16:30:59 - PHP Notice:  Undefined variable: column_right in C:\Users\Ilya\Desktop\projects\oc\catalog\view\theme\our_theme\template\extension\module\latest.tpl on line 4
+2020-07-24 16:30:59 - PHP Notice:  Undefined variable: column_right in C:\Users\Ilya\Desktop\projects\oc\catalog\view\theme\our_theme\template\extension\module\latest.tpl on line 4
+2020-07-24 16:30:59 - PHP Notice:  Undefined variable: column_right in C:\Users\Ilya\Desktop\projects\oc\catalog\view\theme\our_theme\template\extension\module\latest.tpl on line 4
+2020-08-10 14:07:30 - PHP Notice:  Undefined variable: ckeditor in C:\Users\Ilya\Desktop\projects\oc\admin\view\template\extension\module\newsblog_articles.tpl on line 168
+2020-08-10 17:01:28 - PHP Notice:  Undefined index: text_promotion in C:\Users\Ilya\Desktop\projects\oc\catalog\view\theme\our_theme\template\newsblog\article.tpl on line 175
+2020-08-10 17:02:01 - PHP Notice:  Undefined index: promotion in C:\Users\Ilya\Desktop\projects\oc\catalog\view\theme\our_theme\template\newsblog\article.tpl on line 175
+2020-08-10 17:02:17 - PHP Notice:  Undefined index: promotion in C:\Users\Ilya\Desktop\projects\oc\catalog\view\theme\our_theme\template\newsblog\article.tpl on line 175
+2020-08-10 17:02:20 - PHP Notice:  Undefined index: promotion in C:\Users\Ilya\Desktop\projects\oc\catalog\view\theme\our_theme\template\newsblog\article.tpl on line 175
+2020-08-10 17:02:23 - PHP Notice:  Undefined index: promotion in C:\Users\Ilya\Desktop\projects\oc\catalog\view\theme\our_theme\template\newsblog\article.tpl on line 175
+2020-08-10 17:03:20 - PHP Notice:  Undefined index: promotion in C:\Users\Ilya\Desktop\projects\oc\catalog\view\theme\our_theme\template\newsblog\article.tpl on line 175
+2020-08-10 17:03:27 - PHP Notice:  Undefined index: promotion in C:\Users\Ilya\Desktop\projects\oc\catalog\view\theme\our_theme\template\newsblog\article.tpl on line 175
+2020-08-10 17:07:08 - PHP Notice:  Undefined index: promotion in C:\Users\Ilya\Desktop\projects\oc\catalog\view\theme\our_theme\template\newsblog\article.tpl on line 175
+2020-08-10 17:08:00 - PHP Notice:  Undefined index: promotion in C:\Users\Ilya\Desktop\projects\oc\catalog\view\theme\our_theme\template\newsblog\article.tpl on line 175
+2020-08-10 17:12:01 - PHP Notice:  Undefined index: promotion in C:\Users\Ilya\Desktop\projects\oc\catalog\view\theme\our_theme\template\newsblog\article.tpl on line 175
+2020-08-10 17:18:44 - PHP Notice:  Undefined index: promotion in C:\Users\Ilya\Desktop\projects\oc\catalog\view\theme\our_theme\template\newsblog\article.tpl on line 175
+2020-08-10 17:24:58 - PHP Notice:  Undefined index: promotion in C:\Users\Ilya\Desktop\projects\oc\catalog\view\theme\our_theme\template\newsblog\article.tpl on line 175
+2020-08-10 17:26:02 - PHP Notice:  Undefined index: promotion in C:\Users\Ilya\Desktop\projects\oc\catalog\view\theme\our_theme\template\newsblog\article.tpl on line 175
+2020-08-11 10:33:22 - PHP Notice:  Undefined index: promotion in C:\Users\Ilya\Desktop\projects\oc\catalog\view\theme\our_theme\template\newsblog\article.tpl on line 175
+2020-08-11 10:39:08 - PHP Notice:  Undefined variable: ckeditor in C:\Users\Ilya\Desktop\projects\oc\admin\view\template\extension\module\newsblog_articles.tpl on line 168
+2020-08-11 10:45:41 - PHP Notice:  Undefined variable: ckeditor in C:\Users\Ilya\Desktop\projects\oc\admin\view\template\extension\module\newsblog_articles.tpl on line 168

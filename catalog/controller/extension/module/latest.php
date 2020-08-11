@@ -3,6 +3,8 @@ class ControllerExtensionModuleLatest extends Controller {
 	public function index($setting) {
 		$this->load->language('extension/module/latest');
 
+		$data['column_right'] = $this->load->controller('common/column_right');
+
 		$data['heading_title'] = $this->language->get('heading_title');
 
 		$data['text_tax'] = $this->language->get('text_tax');
